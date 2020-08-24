@@ -6,6 +6,8 @@ import {OrderCancelledListener} from "./events/listeners/order-cancelled-listene
 
 
 async function start() {
+    console.log('Starting payments service..');
+
     if (!process.env.JWT_KEY) {
         throw new Error('No JWT_KEY defined')
     }
