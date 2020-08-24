@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expiration/expiration.iml" filepath="$PROJECT_DIR$/expiration/expiration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders/orders.iml" filepath="$PROJECT_DIR$/orders/orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payments/payments.iml" filepath="$PROJECT_DIR$/payments/payments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketing.iml" filepath="$PROJECT_DIR$/ticketing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tickets/tickets.iml" filepath="$PROJECT_DIR$/tickets/tickets.iml" />
+    </modules>
+  </component>
+</project>
