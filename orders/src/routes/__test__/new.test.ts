@@ -3,8 +3,8 @@ import {app} from "../../app";
 import mongoose from 'mongoose';
 import {Order} from "../../models/order";
 import {Ticket} from "../../models/ticket";
-import {OrderStatus} from "../../../../common/src";
 import {natsWrapper} from "../../nats-wrapper";
+import {OrderStatus} from "@kosta111/common";
 
 it('should return an error if the ticket does not exists', async function () {
     const ticketId = mongoose.Types.ObjectId();
