@@ -1,10 +1,10 @@
 import {Ticket} from "../../models/ticket";
 import request from 'supertest';
 import {app} from "../../app";
-import {OrderStatus} from "../../../../common/src";
 import {Order} from "../../models/order";
 import {natsWrapper} from "../../nats-wrapper";
 import mongoose from 'mongoose';
+import {OrderStatus} from "@kosta111/common";
 
 it('should mark an order as cancelled', async function () {
     // Create a ticket with Ticket model
