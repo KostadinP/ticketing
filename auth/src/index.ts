@@ -3,6 +3,8 @@ import {app} from "./app";
 
 
 async function start() {
+    console.log('Starting auth service...');
+
     if (!process.env.JWT_KEY) {
         throw new Error('No JWT_KEY defined')
     }
